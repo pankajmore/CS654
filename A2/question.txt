@@ -1,0 +1,20 @@
+In this assignment you have to design an architecture for fail over
+mechanism of VM and Implement it using any VM package like virtual box,
+vmware, lxc, xen, openvz.
+
+Consider the following scenario
+
+There is a process running on a VM which do counting and writes to a file
+in your home folder(user@csews12:/users/mtech/<user>/<filename>)
+
+There are various possibilities in which process can fail, for example
+VM fails, Process stops etc.
+
+You have to submit a document describing
+1. What are the possible ways in which system may fail.
+2. How will you detect if there is failure.
+3. How will you recover the system.
+
+Write code for detecting failure and recovering the same.
+
+The document and the code - both are important.
